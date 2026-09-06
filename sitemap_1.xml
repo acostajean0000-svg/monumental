@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://apartamento-residencial-monumental.vercel.app/</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://apartamento-residencial-monumental.vercel.app/01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apartamento-residencial-monumental.vercel.app/02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apartamento-residencial-monumental.vercel.app/03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apartamento-residencial-monumental.vercel.app/04.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apartamento-residencial-monumental.vercel.app/05.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apartamento-residencial-monumental.vercel.app/06.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apartamento-residencial-monumental.vercel.app/07.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://apartamento-residencial-monumental.vercel.app/08.jpg</image:loc>
+    </image:image>
+  </url>
+</urlset>
