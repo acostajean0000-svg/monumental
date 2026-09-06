@@ -1,12 +1,21 @@
 <!doctype html>
 <html lang="es">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11031591426"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11031591426');
+</script>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Apartamento remodelado de 65 m2 en Residencial Monumental, Pantoja, Santo Domingo Oeste. 3 habitaciones, 1 bano, parqueo. RD$4,100,000.">
 <meta property="og:title" content="Apartamento 3 hab. en Residencial Monumental - RD$4,100,000">
 <meta property="og:description" content="65 m2, remodelado, 2do nivel, parqueo propio. Pantoja, Santo Domingo Oeste.">
-<meta property="og:image" content="fotos/01.jpg">
+<meta property="og:image" content="https://apartamento-residencial-monumental.vercel.app/01.jpg">
 <meta property="og:type" content="website">
 <title>Apto 3H · Residencial Monumental</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +23,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Karla:wght@400;500;700&display=swap">
 
 <style>
+html{scroll-behavior:smooth}
   :root{
     --ground:#FAF6F4;
     --surface:#FFFFFF;
@@ -163,58 +173,58 @@
 </header>
 
 <main>
-  <section class="wrap">
+  <section class="wrap" id="recorrido">
     <h2>Recorrido</h2>
     <p class="lede">De la entrada a la cocina, en orden.</p>
 
     <div class="galeria">
       <figure>
-        <img src="fotos/01.jpg" alt="Sala con comedor al fondo y salida al balcón" width="1050" height="1400" loading="eager">
+        <img src="01.jpg" alt="Sala con comedor al fondo y salida al balcón" width="1050" height="1400" loading="eager">
         <figcaption>Sala y comedor integrados, con salida al balcón.</figcaption>
       </figure>
 
       <div class="par">
         <figure>
-          <img src="fotos/02.jpg" alt="Sala vista desde el comedor" width="1050" height="1400" loading="lazy">
+          <img src="02.jpg" alt="Sala vista desde el comedor" width="1050" height="1400" loading="lazy">
           <figcaption>La sala desde el comedor.</figcaption>
         </figure>
         <figure>
-          <img src="fotos/03.jpg" alt="Vista de la sala desde el recibidor" width="1050" height="1400" loading="lazy">
+          <img src="03.jpg" alt="Vista de la sala desde el recibidor" width="1050" height="1400" loading="lazy">
           <figcaption>Vista desde el recibidor.</figcaption>
         </figure>
       </div>
 
       <div class="par">
         <figure>
-          <img src="fotos/04.jpg" alt="Comedor con aire acondicionado instalado" width="1050" height="1400" loading="lazy">
+          <img src="04.jpg" alt="Comedor con aire acondicionado instalado" width="1050" height="1400" loading="lazy">
           <figcaption>Comedor, con aire acondicionado instalado.</figcaption>
         </figure>
         <figure>
-          <img src="fotos/05.jpg" alt="Cocina con tope de granito y gabinetes de caoba" width="1050" height="1400" loading="lazy">
+          <img src="05.jpg" alt="Cocina con tope de granito y gabinetes de caoba" width="1050" height="1400" loading="lazy">
           <figcaption>Cocina con tope de granito y gabinetes en caoba.</figcaption>
         </figure>
       </div>
 
       <div class="par">
         <figure>
-          <img src="fotos/06.jpg" alt="Área de cocina y lavado con ventana" width="1050" height="1400" loading="lazy">
+          <img src="06.jpg" alt="Área de cocina y lavado con ventana" width="1050" height="1400" loading="lazy">
           <figcaption>Área de lavado, con ventana y estufa de gas.</figcaption>
         </figure>
         <figure>
-          <img src="fotos/07.jpg" alt="Pasillo que da a las habitaciones" width="1050" height="1400" loading="lazy">
+          <img src="07.jpg" alt="Pasillo que da a las habitaciones" width="1050" height="1400" loading="lazy">
           <figcaption>Pasillo hacia las tres habitaciones.</figcaption>
         </figure>
       </div>
 
       <figure>
-        <img src="fotos/08.jpg" alt="Nichos decorativos iluminados junto al televisor" width="1050" height="1400" loading="lazy">
+        <img src="08.jpg" alt="Nichos decorativos iluminados junto al televisor" width="1050" height="1400" loading="lazy">
         <figcaption>Nichos decorativos con luz LED, hechos en la remodelación.</figcaption>
       </figure>
       <!-- PENDIENTE: agregar aquí las 3 habitaciones, el baño y el parqueo -->
     </div>
   </section>
 
-  <section class="wrap">
+  <section class="wrap" id="remodelacion">
     <h2>Lo que se remodeló</h2>
     <p class="lede">Los trabajos ya están hechos. No hay que invertir para mudarse.</p>
     <ul class="mejoras">
@@ -227,7 +237,7 @@
     </ul>
   </section>
 
-  <section class="wrap">
+  <section class="wrap" id="ficha">
     <h2>Ficha técnica</h2>
     <p class="lede">Los datos que se piden en una tasación.</p>
     <dl class="ficha">
@@ -249,7 +259,7 @@
     </dl>
   </section>
 
-  <section class="wrap">
+  <section class="wrap" id="zona">
     <h2>La zona</h2>
     <p class="lede">Pantoja, Santo Domingo Oeste.</p>
     <div class="zona">
@@ -258,7 +268,7 @@
     </div>
   </section>
 
-  <section class="wrap">
+  <section class="wrap" id="contacto">
     <div class="cta-bloque">
       <h2>¿Quieres verlo?</h2>
       <p>Escríbenos por WhatsApp y coordinamos la visita. Respondemos el mismo día.</p>
